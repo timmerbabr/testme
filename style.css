@@ -1,0 +1,58 @@
+body {
+    background-color: #e6e6e6;
+    font-family: Arial, sans-serif;
+    margin-right: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: #5a4fcf;
+    text-decoration: underline;
+}
+
+form {
+    width: 900px;
+    background-color: #5a4fcf;
+    border: 2px;
+
+}
+
+
+table {
+    width: 100%;
+    color: white;
+    line-height: 40px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: 180px;
+}
+
+textarea {
+    width: 300px;
+}
+
+
+
+.inner-table {
+    width: 100%;
+}
+
+.inner-table th,
+.inner-table td {
+    border: 1px solid white;
+    text-align: center;
+}
+
+.buttons {
+    text-align: center;
+    line-height: 60px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    cursor: pointer;
+}
